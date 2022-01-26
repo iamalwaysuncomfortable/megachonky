@@ -34,5 +34,7 @@ Properly you need keytool, zipalign, and apksigner. On most debian distros this 
 
 ### Sign your APK (android won't install unsigned apps)
 keytool -genkey -v -keystore my-release-key.jks -keyalg RSA -keysize 2048 -validity 10000 -alias my-alias
+
 zipalign -v -p 4 my-app-unsigned.apk my-app-unsigned-aligned.apk
+
 apksigner sign --ks my-release-key.jks --out my-app-release.apk my-app-unsigned-aligned.apk
