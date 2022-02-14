@@ -42,6 +42,28 @@ In this field the things that are of key study are include
 * Kernels: (A little intricate, but more or less the solution to functions when you set them to zero!)
 
 
-Math resources
+## Math resources
+
+### Beginner
+* Practical cryptography for developers: https://cryptobook.nakov.com/
+* Visualization of an Eliptic Curve in higher dimension (also called an "algebraic variety"): https://www.math3d.org/c16cy5nFq
+* Math notation reference: https://mathvault.ca/hub/higher-math/math-symbols/
+
+### Not Beginner
+(Don't be afraid to tread here)
+* Binary Relations: https://en.wikipedia.org/wiki/Binary_relation
+* Equivalence Relations: https://www.math.cmu.edu/~mradclif/teaching/127S19/Notes/EquivalenceRelations.pdf
+* Equivalence Classes: https://math24.net/equivalence-classes-partitions.html
+* Equivalence Class Notation: https://math.stackexchange.com/questions/369635/what-is-the-standard-notation-for-a-set-of-equivalence-classes
+* What is a projective space: https://www.youtube.com/watch?v=ZzJd1n_tUuU
 * Eliptic Curve Point Addition in Projective CoordinateS: https://www.nayuki.io/page/elliptic-curve-point-addition-in-projective-coordinates
-* 
+* Standard Projective Addition Formulas: https://en.wikibooks.org/wiki/Cryptography/Prime_Curve/Standard_Projective_Coordinates
+* Understanding what the "point at infinity" is: https://crypto.stackexchange.com/questions/70507/in-elliptic-curve-what-does-the-point-at-infinity-look-like
+
+### Super Sayan
+(Don't be afraid to tread here either)
+* Birational GeometrY: https://en.wikipedia.org/wiki/Birational_geometry
+
+
+### Applied Information
+* Why isn't RSA used to encrypt large files?: https://infosecwriteups.com/why-rsa-is-not-used-to-encrypt-large-files-d3172d83febd
