@@ -11,6 +11,13 @@ which will allow you to link another device. Command semantics are below:
 ### Pre-requisities: 
 Git, Docker, Android Studio installed/configured
 
+### Prior to building: 
+To install it alongside other apps you need to change the apk's name to something different than the main signal app.
+The file you can do this at is build [signal_repo_root_dir]/app/build.gradle. When you open that change the
+`applicationId` setting
+from: `applicationId "org.thoughtcrime.signal"` to something like `applicationId "org.thoughtcrime.signaltwo`
+![image](https://user-images.githubusercontent.com/26438809/164309143-207fe3cb-7b2b-4aca-9607-7d231c258a9f.png)
+
 ### Clone the Signal Android source repository
 git clone https://github.com/signalapp/Signal-Android.git && cd Signal-Android
 
