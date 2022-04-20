@@ -16,7 +16,8 @@ To install it alongside other apps you need to change the apk's name to somethin
 The file you can do this at is build [signal_repo_root_dir]/app/build.gradle. When you open that change the
 `applicationId` setting
 from: `applicationId "org.thoughtcrime.signal"` to something like `applicationId "org.thoughtcrime.signaltwo`
-![image](https://user-images.githubusercontent.com/26438809/164309143-207fe3cb-7b2b-4aca-9607-7d231c258a9f.png)
+![image](https://user-images.githubusercontent.com/26438809/164309978-535fa17b-e882-4c71-a489-27c2c7dfa80f.png)
+
 
 ### Clone the Signal Android source repository
 git clone https://github.com/signalapp/Signal-Android.git && cd Signal-Android
