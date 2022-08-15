@@ -13,8 +13,7 @@ def send_payment():
     memo: str
     mcoin: int = 0
     pcoin: int = 0
-    coin: field(init = False) = 0
-
+    coin: float field(init = False) = 0.0
     
     def __post_init__(self):
       self.coin = rate / 1
